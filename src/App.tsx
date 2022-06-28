@@ -1,10 +1,12 @@
-import Button from "@mui/material/Button";
+import { HeaderLayout } from "./components/templates/HeaderLayout";
 import { Router } from "./router/Router";
 
 function App() {
   return (
     <div className="App">
-      <Router />
+      <HeaderLayout>
+        <Router />
+      </HeaderLayout>
     </div>
   );
 }
